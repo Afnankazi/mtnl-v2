@@ -1,0 +1,59 @@
+/*
+ * MTNL brand theme — root-level overrides of UX4G primitive colour tokens.
+ * Imported AFTER ux4g-web-components/styles.css so these values win.
+ *
+ * These ramps are derived from the MTNL brand blue and orange and are
+ * placeholders pending sign-off against the official brand guideline.
+ * Never edit the UX4G package itself — this file is the override surface.
+ */
+:root {
+  /* Primary — MTNL blue */
+  --ux4g-color-primary-50: #eaf3fb;
+  --ux4g-color-primary-100: #cfe4f5;
+  --ux4g-color-primary-200: #a3cbec;
+  --ux4g-color-primary-300: #74afe0;
+  --ux4g-color-primary-400: #4491d2;
+  --ux4g-color-primary-500: #0b5fad;
+  --ux4g-color-primary-600: #094c8a;
+  --ux4g-color-primary-700: #073a69;
+  --ux4g-color-primary-800: #052a4c;
+  --ux4g-color-primary-900: #031b30;
+  --ux4g-color-primary-950: #020f1c;
+
+  /* Secondary — MTNL orange accent (pay / recharge emphasis) */
+  --ux4g-color-secondary-50: #fff3ec;
+  --ux4g-color-secondary-100: #ffe1cc;
+  --ux4g-color-secondary-200: #ffbf95;
+  --ux4g-color-secondary-300: #ff9a5c;
+  --ux4g-color-secondary-400: #f97832;
+  --ux4g-color-secondary-500: #e8580f;
+  --ux4g-color-secondary-600: #bf4408;
+  --ux4g-color-secondary-700: #963407;
+  --ux4g-color-secondary-800: #6d2707;
+  --ux4g-color-secondary-900: #451805;
+  --ux4g-color-secondary-950: #240b02;
+
+  /* Tertiary — supporting teal for informational accents */
+  --ux4g-color-tertiary-50: #e9f7f8;
+  --ux4g-color-tertiary-100: #c7ebee;
+  --ux4g-color-tertiary-200: #93d8de;
+  --ux4g-color-tertiary-300: #5cc0c9;
+  --ux4g-color-tertiary-400: #2aa3ad;
+  --ux4g-color-tertiary-500: #0e7c86;
+  --ux4g-color-tertiary-600: #0b636b;
+  --ux4g-color-tertiary-700: #094c53;
+  --ux4g-color-tertiary-800: #06363b;
+  --ux4g-color-tertiary-900: #042124;
+  --ux4g-color-tertiary-950: #021113;
+}
+
+/* Root text-size scaling driven by the accessibility bar controls */
+html[data-font-scale="sm"] {
+  font-size: 93.75%;
+}
+html[data-font-scale="lg"] {
+  font-size: 112.5%;
+}
+html[data-font-scale="xl"] {
+  font-size: 125%;
+}
